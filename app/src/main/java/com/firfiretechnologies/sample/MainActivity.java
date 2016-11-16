@@ -15,7 +15,7 @@ private CircleView circleView;
 
         setContentView(R.layout.activity_main);
         circleView = (CircleView) findViewById(R.id.circleView);
-        circleView.setCircleColor(Color.GREEN);
+        circleView.setCircleColor(Color.RED);
 
         circleView.setOnClickListener(new View.OnClickListener() {
             @Override

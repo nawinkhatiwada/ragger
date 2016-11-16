@@ -53,7 +53,7 @@ public class CircleView extends View {
         int usableWidth = w - (pl + pr);
         int usableHeight = h - (pt + pb);
 
-        int radius = Math.min(usableWidth, usableHeight) / 2;
+        int radius = Math.min(usableWidth, usableHeight) / 4;
         int cx = pl + (usableWidth / 2);
         int cy = pt + (usableHeight / 2);
 
